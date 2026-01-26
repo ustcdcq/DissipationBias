@@ -17,7 +17,10 @@ Core idea: by tuning the bias factor **α (alpha)**, trajectories are reweighted
 ## ✨ Features
 
 - **Clone algorithm** for trajectory reweighting
-- Pathway selection and directed assembly controlled by the bias parameter **α**
+
+- **Pathway selection and directed assembly** controlled by the bias parameter **(\alpha)**
+
+- **Rich active-colloid assembly configurations** (e.g., disorder/stripe/trimer)
 
 ***
 
@@ -46,16 +49,23 @@ git clone https://github.com/ustcdcq/Dissipation.git
 
 cd src
 
+#prepare Input and Output directory 
+mkdir Input && mkdir Gen && cd Gen && mkdir Input && mkdir Output
+
+#complie 
 make -j8
 
+#run
 ./CC
 ```
 
 ## 📺 Demo
 
-You can load the following files from the **`Output`** directory into `OVITO` to visualize the simulation trajectory.
+You can tune $\alpha$ and the **`total number of replicas`** directly in `main.cu`.
 
-file format:`A_40.0_Ks_220.0_clone_id.dump`
+To visualize the simulation trajectories, load the dump files in `/Gen/Output/` into **OVITO.**
+
+Example output:alpha_minus10_A40_Ks220.gif
 
 
 <div align="center">
