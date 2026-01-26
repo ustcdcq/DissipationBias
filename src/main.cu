@@ -25,8 +25,8 @@ int main(int argc, char* argv[])
 
 	Clone clone;
 	clone.alpha = 0.0;
-	clone.iter_number = 500;
-	const int amount = 10;
+	clone.iter_number = 5000;
+	const int amount = 1000;
 
 	clone.amount_number = amount;
 	clone.Memory_allocation();
