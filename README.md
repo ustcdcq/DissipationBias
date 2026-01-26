@@ -62,7 +62,7 @@ file format:`A_40.0_Ks_220.0_clone_id.dump`
 
 
 
- <img src="./media/.gif" width="500"/>
+ <img src="./media/alpha_down_for_40_220.gif" width="500"/>
 
 
 
