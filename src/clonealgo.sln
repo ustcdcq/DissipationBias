@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "clonealgo", "clonealgo.vcxproj", "{B7B816FE-690E-C84B-689F-93C1433A498F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7B816FE-690E-C84B-689F-93C1433A498F}.Debug|x64.ActiveCfg = Debug|x64
+		{B7B816FE-690E-C84B-689F-93C1433A498F}.Debug|x64.Build.0 = Debug|x64
+		{B7B816FE-690E-C84B-689F-93C1433A498F}.Release|x64.ActiveCfg = Release|x64
+		{B7B816FE-690E-C84B-689F-93C1433A498F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F426FB87-E973-4D8F-A5E6-764C5E90DCC6}
+	EndGlobalSection
+EndGlobal
