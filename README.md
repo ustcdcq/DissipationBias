@@ -81,12 +81,12 @@ Example output:alpha_minus10_A40_Ks220.gif
 
 You can find the clone-information file `info_cloneid.txt` from `/Gen/Output` directory. The file is formatted as follows: 
 
-- column 1: `dissipation`
-- column 2:`clone number`
-- column 3: `father id` 
-- column 4: `disorder ratio`
-- column 5: `stripe ratio`
-- column 6: `trimer ratio`
+- column 1: dissipation
+- column 2:clone number
+- column 3: father id 
+- column 4: disorder ratio
+- column 5: stripe ratio
+- column 6: trimer ratio
 
 ## 🧾 Information
 
