@@ -6,7 +6,7 @@ This repository implements a **clone algorithm** to bias the **dissipation tende
 
 
 
-Core idea: by tuning the bias factor **α (alpha)**, trajectories are reweighted according to their dissipation, and a **cloning/pruning** mechanism adjusts the copy number of trajectories. This amplifies either **energy-avoiding** (low-dissipation) or **energy-seeking** (high-dissipation) pathways, thereby steering the assembly outcome (e.g., disorder/stripe/trimer).
+Core idea: by tuning the bias factor α , trajectories are reweighted according to their dissipation, and a **cloning/pruning** mechanism adjusts the copy number of trajectories. This amplifies either **energy-avoiding** (low-dissipation) or **energy-seeking** (high-dissipation) pathways, thereby steering the assembly outcome (e.g., disorder/stripe/trimer).
 
 
 
@@ -16,11 +16,10 @@ Core idea: by tuning the bias factor **α (alpha)**, trajectories are reweighted
 
 ## ✨ Features
 
-- **Clone algorithm** for trajectory reweighting
-
-- **Pathway selection and directed assembly** controlled by the bias parameter **(\alpha)**
-
-- **Rich active-colloid assembly configurations** (e.g., disorder/stripe/trimer)
+- Clone algorithm for bias trajectory
+- Pathway selection and directed assembly controlled by the bias parameter ($\alpha$)
+- Rich active-colloid assembly configurations (e.g., disorder/stripe/trimer)
+- Compatible with OVITO for visualization of `.dump` trajectory files
 
 ***
 
@@ -61,7 +60,7 @@ make -j8
 
 ## 📺 Demo
 
-You can tune $\alpha$ and the **`total number of replicas`** directly in `main.cu`.
+You can tune $\alpha$ and the total number of replicas directly in `main.cu`.
 
 To visualize the simulation trajectories, load the dump files in `/Gen/Output/` into **OVITO.**
 
@@ -72,24 +71,28 @@ Example output:alpha_minus10_A40_Ks220.gif
 
 
 
+
+
  <img src="./media/alpha_down_for_40_220.gif" width="500"/>
+
+
 
 
 
 </div>
 
 
-You can find the clone-information file `info_cloneid.txt` from `/Gen/Output` directory. The file is formatted as follows: 
+You can find the clone-information file `info_cloneid.txt` from `/Gen/Output` directory. The file is formatted as follows:
 
 - column 1: dissipation
-- column 2:clone number
-- column 3: father id 
+- column 2: clone number
+- column 3: father id
 - column 4: disorder ratio
 - column 5: stripe ratio
 - column 6: trimer ratio
 
 ## 🧾 Information
 
-A rich variety of structures with distinct functions can be generated through complex nonequilibrium self-assembly, yet directing the system toward a desired target state remains challenging because multiple dynamical pathways may coexist and fluctuations can determine the outcome. In this work, we propose a thermodynamic control principle for nonequilibrium targeted assembly in which tuning the dissipation tendency modulates the frequency and intensity of local rearrangements, thereby reshaping assembly pathways and enabling directional self-assembly when competing structures dissipate differently. 
+A rich variety of structures with distinct functions can be generated through complex nonequilibrium self-assembly, yet directing the system toward a desired target state remains challenging because multiple dynamical pathways may coexist and fluctuations can determine the outcome. In this work, we propose a thermodynamic control principle for nonequilibrium targeted assembly in which tuning the dissipation tendency modulates the frequency and intensity of local rearrangements, thereby reshaping assembly pathways and enabling directional self-assembly when competing structures dissipate differently.
 
 Using the assembly of active core–corona colloids as a platform, we demonstrate two representative capabilities enabled by this principle: (i) Inducing ordered target configurations from disordered structures; (ii) Directionally selecting among competing assembly pathways.
