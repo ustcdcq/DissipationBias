@@ -80,19 +80,6 @@ You can find the clone-information file `info_cloneid.txt` from `/Gen/Output` di
 
 ## 🧾 Information
 
-*A rich variety of structures with distinct functions can be generated through  
-complex nonequilibrium self-assembly, yet directing the system toward a desired  
-target state remains challenging because multiple dynamical pathways may  
-coexist and fluctuations can determine the outcome. In this work, we propose a  
-thermodynamic control principle for nonequilibrium targeted assembly in which  
-tuning the dissipation tendency modulates the frequency and intensity of local  
-rearrangements, thereby reshaping assembly pathways and enabling directional  
-self-assembly when competing structures dissipate differently.*
+A rich variety of structures with distinct functions can be generated through complex nonequilibrium self-assembly, yet directing the system toward a desired target state remains challenging because multiple dynamical pathways may coexist and fluctuations can determine the outcome. In this work, we propose a thermodynamic control principle for nonequilibrium targeted assembly in which tuning the dissipation tendency modulates the frequency and intensity of local rearrangements, thereby reshaping assembly pathways and enabling directional self-assembly when competing structures dissipate differently. 
 
-*Using the assembly of active core–corona colloids  
-as a platform, we demonstrate two representative capabilities enabled by this  
-principle: (i) Inducing ordered target configurations from disordered  
-structures; (ii) Directionally selecting among competing assembly pathways.Using the assembly of active core–corona colloids  
-as a platform, we demonstrate two representative capabilities enabled by this  
-principle: (i) Inducing ordered target configurations from disordered  
-structures; (ii) Directionally selecting among competing assembly pathways.*
+Using the assembly of active core–corona colloids as a platform, we demonstrate two representative capabilities enabled by this principle: (i) Inducing ordered target configurations from disordered structures; (ii) Directionally selecting among competing assembly pathways.Using the assembly of active core–corona colloids as a platform, we demonstrate two representative capabilities enabled by this principle: (i) Inducing ordered target configurations from disordered structures; (ii) Directionally selecting among competing assembly pathways.
