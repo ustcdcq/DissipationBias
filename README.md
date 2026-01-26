@@ -62,7 +62,7 @@ make -j8
 
 You can tune $\alpha$ and the total number of replicas directly in `main.cu`.
 
-To visualize the simulation trajectories, load the dump files in `/Gen/Output/` into **OVITO.**
+To visualize the simulation trajectories, load the `dump` files in `/Gen/Output/` into **OVITO.**
 
 Example output:alpha_minus10_A40_Ks220.gif
 
@@ -82,7 +82,7 @@ Example output:alpha_minus10_A40_Ks220.gif
 </div>
 
 
-You can find the clone-information file `info_cloneid.txt` from `/Gen/Output` directory. The file is formatted as follows:
+You can find the clone-information file `info_cloneid.txt` from `/Gen/clone_info` directory. The file is formatted as follows:
 
 - column 1: dissipation
 - column 2: clone number
