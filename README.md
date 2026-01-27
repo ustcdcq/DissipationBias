@@ -49,7 +49,7 @@ git clone https://github.com/ustcdcq/Dissipation.git
 cd src
 
 #prepare Input and Output directory 
-mkdir Input && mkdir Gen && cd Gen && mkdir Input && mkdir Output
+src/Input src/Gen/Input src/Gen/Output
 
 #complie 
 make -j8
@@ -73,7 +73,15 @@ Example output:alpha_minus10_A40_Ks220.gif
 
 
 
+
+
+
+
  <img src="./media/alpha_down_for_40_220.gif" width="500"/>
+
+
+
+
 
 
 
@@ -96,3 +104,5 @@ You can find the clone-information file `info_cloneid.txt` from `/Gen/clone_info
 A rich variety of structures with distinct functions can be generated through complex nonequilibrium self-assembly, yet directing the system toward a desired target state remains challenging because multiple dynamical pathways may coexist and fluctuations can determine the outcome. In this work, we propose a thermodynamic control principle for nonequilibrium targeted assembly in which tuning the dissipation tendency modulates the frequency and intensity of local rearrangements, thereby reshaping assembly pathways and enabling directional self-assembly when competing structures dissipate differently.
 
 Using the assembly of active core–corona colloids as a platform, we demonstrate two representative capabilities enabled by this principle: (i) Inducing ordered target configurations from disordered structures; (ii) Directionally selecting among competing assembly pathways.
+
+See the movie in `./Media`. Additional raw data and post-processing scripts are available at Zenodo: `10.5281/zenodo.18376811`.
