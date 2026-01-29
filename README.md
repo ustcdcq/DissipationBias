@@ -77,7 +77,7 @@ Example output:alpha_minus10_A40_Ks220.gif
 
 
 
- <img src="./media/alpha_down_for_40_220.gif" width="500"/>
+ <img src="./media/alpha_minus10_for_40_220.gif" width="500"/>
 
 
 
